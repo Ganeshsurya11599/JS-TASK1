@@ -1,0 +1,54 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header{
+	text-align: center;
+	background-color: lightgreen;
+	color: blue;
+	padding: 20px;
+}
+.margin{
+	margin-left: 15%;
+}
+.margin1{
+	margin-left: 10%;
+	margin-top: 3%;
+}
+.margin2{
+	margin-left: 27%;
+	margin-top: 3%;
+}
+.style{
+	margin-top: -10%;
+}
+.style1{
+	margin-left: 35%;
+}
+.style3{
+	margin-left: -27%;
+}
+label{
+	font-size: 20px;
+	margin-right: 10%;
+	color: white;
+}
+input{
+	width: 80%;
+	border-radius: 20px;
+	height: 50px;
+	outline-style: none;
+}
+.design{
+	-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 10s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-duration: 10s;
+}
+@-webkit-keyframes example {
+  0%   {background-color: gray;}
+  25%  {background-color: orange;}
+  50%  {background-color: skyblue;}
+  100% {background-color: red;}
+}
